@@ -1,17 +1,15 @@
 {
-  "name": "cst",
+  "name": "tuto",
   "version": "1.0.0",
-  "description": "backend nodejs for translation",
+  "description": "",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vahinala Ralison",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@mgcodeur/super-translator": "^1.0.9",
-    "express": "^4.18.2",
-    "http": "^0.0.1-security"
+    "express": "^4.18.2"
   }
 }
