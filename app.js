@@ -25,7 +25,6 @@ app.get('/recuperer-donnees',async (req, res) => {
   res.status(200).json(results);
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Serveur en cours d'exécution sur le port ${port}`);
+app.use((req, res) => {
+  res.json({ message: "UPDATE !" }); 
 });
