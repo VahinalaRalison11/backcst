@@ -15,11 +15,6 @@ app.use((req, res, next) => {
     next();
   });
 
-  
-  app.use((req, res) => {
-    res.json({ message: "UPDATE !" }); 
- });
-
 // Route pour recevoir des données en POST
 app.post('/envoyer-donnees', (req, res) => {
     const donneesRecues = req.body;
