@@ -28,3 +28,5 @@ app.get('/recuperer-donnees',async (req, res) => {
 app.use((req, res) => {
   res.json({ message: "UPDATE !" }); 
 });
+
+module.exports = app;
